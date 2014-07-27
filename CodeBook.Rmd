@@ -29,7 +29,9 @@ Packages required: `data.table`,`reshape2`
 If you are interested more in Rscript check:
 [Detailed preview of Rscript](http://htmlpreview.github.io/?https://github.com/antekai/GCDproject/blob/master/run_analysis.html)
 
-You can view output tidy data set here: [tidyData](https://github.com/antekai/GCDproject/blob/master/tidyData.csv)
+You can view output tidy data set here:   
+Comma delimited: [TidyData.csv](https://github.com/antekai/GCDproject/blob/master/tidyData.csv)  
+Tab-delimited: [TidyData.txt](https://github.com/antekai/GCDproject/blob/master/tidyData.txt)
 
 ###Variable list and descriptions
 

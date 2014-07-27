@@ -220,6 +220,9 @@ dtTidy &lt;- dt[, list(count = .N, average = mean(value)), by=key(dt)]</code></p
 <p>Saving tidy data to a comma-delimited csv file called <code>tidyData.csv</code>.</p>
 <pre class="r"><code>ti &lt;- file.path(&quot;tidyData.csv&quot;)
 write.table(dtTidy, ti, quote = FALSE, sep = &quot;,&quot;, row.names = FALSE)</code></pre>
+<p>Unfortunately i couldn’t attach csv to course website so i saved tidy data set as txt here (tab-delimited). New file is: <code>tidyData.txt</code></p>
+<pre class="r"><code>ti2 &lt;- file.path(&quot;tidyData.txt&quot;)
+write.table(dtTidy, ti2, quote = FALSE, sep = &quot;\t&quot;, row.names = FALSE)</code></pre>
 </div>
 
 

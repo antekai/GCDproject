@@ -305,3 +305,9 @@ ti <- file.path("tidyData.csv")
 write.table(dtTidy, ti, quote = FALSE, sep = ",", row.names = FALSE)
 ```
 
+Unfortunately i couldn't attach csv to course website so i saved tidy data set as txt here (tab-delimited). New file is: `tidyData.txt` 
+
+```r
+ti2 <- file.path("tidyData.txt")
+write.table(dtTidy, ti2, quote = FALSE, sep = "\t", row.names = FALSE)
+```

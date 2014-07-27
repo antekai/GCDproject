@@ -14,5 +14,6 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 [CodeBook](https://github.com/antekai/GCDproject/blob/master/CodeBook.md)
 
 - **Output Data:**   
-[TidyData](https://github.com/antekai/GCDproject/blob/master/tidyData.csv)
+Comma delimited: [TidyData.csv](https://github.com/antekai/GCDproject/blob/master/tidyData.csv)  
+Tab-delimited: [TidyData.txt](https://github.com/antekai/GCDproject/blob/master/tidyData.txt)
 

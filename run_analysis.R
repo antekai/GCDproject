@@ -111,4 +111,5 @@ dim(dtTidy)
 
 ti <- file.path("tidyData.csv")
 write.table(dtTidy, ti, quote = FALSE, sep = ",", row.names = FALSE)
-
+ti2 <- file.path("tidyData.txt")
+write.table(dtTidy, ti2, quote = FALSE, sep = "\t", row.names = FALSE)
