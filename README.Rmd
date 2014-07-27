@@ -13,10 +13,10 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 
 - **R script:**   
 [run_analysis.R (no details on script)](https://github.com/antekai/GCDproject/blob/master/run_analysis.R)  
-[run_analysis.html (details on script)](https://github.com/antekai/GCDproject/blob/master/run_analysis.html)  
+[run_analysis.html (details on script)](http://htmlpreview.github.io/?https://github.com/antekai/GCDproject/blob/master/run_analysis.html)  
 
 - **Project CodeBook:**   
-[CodeBook](https://github.com/antekai/GCDproject/blob/master/codeBook.md)
+[CodeBook](https://github.com/antekai/GCDproject/blob/master/CodeBook.md)
 
 - **Output Data:**   
 [TidyData](https://github.com/antekai/GCDproject/blob/master/tidyData.csv)

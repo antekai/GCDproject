@@ -101,7 +101,7 @@ unzip(fileName)</code></pre>
 ## [26] &quot;train/subject_train.txt&quot;                     
 ## [27] &quot;train/X_train.txt&quot;                           
 ## [28] &quot;train/y_train.txt&quot;</code></pre>
-<p>See the <a href="https://github.com/antekai/GCDproject/uci%20har%20dataset/blob/master/readme.txt">README.txt</a> for detailed information on the dataset.<br /><em>For the purposes of this project, the files in the <code>Inertial Signals</code> folders are not used.</em></p>
+<p>See the <a href="https://github.com/antekai/GCDproject/blob/master/UCI%20HAR%20Dataset/README.txt">README.txt</a> for detailed information on the dataset.<br /><em>For the purposes of this project, the files in the <code>Inertial Signals</code> folders are not used.</em></p>
 </div>
 <div id="reading-data" class="section level3">
 <h3>Reading data</h3>
@@ -135,7 +135,7 @@ dt &lt;- cbind(dtSubject, dt)</code></pre>
 </div>
 <div id="extract-only-the-mean-and-standard-deviation" class="section level2">
 <h2>Extract only the mean and standard deviation</h2>
-<p>To find which variables in dt are measurements for the mean and standard deviation we read <a href="https://github.com/antekai/GCDproject/uci%20har%20dataset/blob/master/features.txt">features.txt</a>.</p>
+<p>To find which variables in dt are measurements for the mean and standard deviation we read <a href="https://github.com/antekai/GCDproject/blob/master/UCI%20HAR%20Dataset/features.txt">features.txt</a>.</p>
 <pre class="r"><code>dtFeatures &lt;- fread(file.path(pathIn, &quot;features.txt&quot;))
 setnames(dtFeatures, names(dtFeatures), c(&quot;featureNum&quot;, &quot;featureName&quot;))</code></pre>
 <p>Subsetting only measurements for the mean and standard deviation.</p>
@@ -164,7 +164,7 @@ dt &lt;- dt[, select, with=FALSE]</code></pre>
 </div>
 <div id="use-descriptive-activity-names" class="section level2">
 <h2>Use descriptive activity names</h2>
-<p>Check <a href="https://github.com/antekai/GCDproject/uci%20har%20dataset/blob/master/activity_labels.txt">activity_labels.txt</a>. This file will be used to add descriptive names to the activities.</p>
+<p>Check <a href="https://github.com/antekai/GCDproject/blob/master/UCI%20HAR%20Dataset/activity_labels.txt">activity_labels.txt</a>. This file will be used to add descriptive names to the activities.</p>
 <pre class="r"><code>dtActivityNames &lt;- fread(file.path(pathIn, &quot;activity_labels.txt&quot;))
 setnames(dtActivityNames, names(dtActivityNames), c(&quot;activityNum&quot;, &quot;activityName&quot;))</code></pre>
 </div>

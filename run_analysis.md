@@ -66,7 +66,7 @@ list.files(pathIn, recursive = TRUE)
 ## [27] "train/X_train.txt"                           
 ## [28] "train/y_train.txt"
 ```
-See the [README.txt](https://github.com/antekai/GCDproject/uci har dataset/blob/master/readme.txt) for detailed information on the dataset.  
+See the [README.txt](https://github.com/antekai/GCDproject/blob/master/UCI HAR Dataset/README.txt) for detailed information on the dataset.  
 *For the purposes of this project, the files in the `Inertial Signals` folders are not used.*
 
 ###Reading data
@@ -132,7 +132,7 @@ setkey(dt, subject, activityNum)
 
 ##Extract only the mean and standard deviation
 
-To find which variables in dt are measurements for the mean and standard deviation we read [features.txt](https://github.com/antekai/GCDproject/uci har dataset/blob/master/features.txt).
+To find which variables in dt are measurements for the mean and standard deviation we read [features.txt](https://github.com/antekai/GCDproject/blob/master/UCI HAR Dataset/features.txt).
 
 
 ```r
@@ -191,7 +191,7 @@ dt <- dt[, select, with=FALSE]
 ##Use descriptive activity names
 
 
-Check [activity_labels.txt](https://github.com/antekai/GCDproject/uci har dataset/blob/master/activity_labels.txt). This file will be used to add descriptive names to the activities.
+Check [activity_labels.txt](https://github.com/antekai/GCDproject/blob/master/UCI HAR Dataset/activity_labels.txt). This file will be used to add descriptive names to the activities.
 
 
 ```r
